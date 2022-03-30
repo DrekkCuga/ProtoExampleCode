@@ -1,5 +1,9 @@
 # ProtoExampleCode
 
+Extra disclamer:
+This readme needs work, I just stole the one from the first scripts I wrote
+
+
 DISCLAIMER: 
 I made these scripts to provide a starting point for people wanting to use a raspberry pi to run their protogen head, however I can't make something that'll work for everyone.
 This works on my setup (pi 4b and the adafruit bonnet), but your mileage may vary.
