@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#Version 1.1
 import sounddevice as sd
 import numpy as np
 from PIL import Image, ImageOps

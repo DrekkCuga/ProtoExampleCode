@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-
+#Version 1.0
 import numpy as np
 from PIL import Image, ImageOps
 from rgbmatrix import RGBMatrix, RGBMatrixOptions
