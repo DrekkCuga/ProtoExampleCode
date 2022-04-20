@@ -148,7 +148,7 @@ def init():
     global stream
     global matrix
     global ring_thread
-    stream = sd.InputStream(callback=sound_callback)
+    stream = sd.InputStream(callback=sound_callback, device="usb", channels=1)
     stream.start()
 
     options = RGBMatrixOptions()

@@ -15,7 +15,8 @@ wget https://raw.githubusercontent.com/DrekkTheProto/ProtoExampleCode/master/owo
 wget https://raw.githubusercontent.com/DrekkTheProto/ProtoExampleCode/master/owo-pi%20-%20fullframe.py
 echo "Installing dependiencies"
 apt update
-apt install -y --force-yes python3-pil python3-numpy
+apt install -y --force-yes python3-pil python3-numpy python3-pip libportaudio2
+python3 -m pip install sounddevice
 echo "Downloading adafruit setup script"
 curl https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/main/rgb-matrix.sh > rgb-matrix.sh
 echo "If you're using the default bonnet, you want to use the \"Convenience\" setting"
